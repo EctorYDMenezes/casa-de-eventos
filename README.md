@@ -25,12 +25,12 @@ docker run -d -p 5173:5173 --name casa-de-eventos ectormenezes/casa-de-eventos
 ```
 Isso irá:
 - Executar o container em segundo plano (`-d`).
-- Mapear a porta 5173 do container para a porta 8080 da sua máquina local.
+- Mapear a porta 5173 do container para a porta 5173 da sua máquina local.
 - Nomear o container como `casa-de-eventos`.
 
 ### 3. Acessar a aplicação
 
-Abra o navegador e acesse [http://localhost:8080](http://localhost:5173) para visualizar a aplicação rodando.
+Abra o navegador e acesse [http://localhost:5173](http://localhost:5173) para visualizar a aplicação rodando.
 
 ## Testes Locais
 
